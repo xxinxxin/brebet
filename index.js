@@ -161,7 +161,7 @@ const getRandomImage = async (q, type) => {
     "Wuthering Waves"
   ];
 
-  type = type || "full";
+  type = type || "large";
 
   while (true) {
     try {
