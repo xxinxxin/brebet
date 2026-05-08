@@ -6,7 +6,7 @@ import sharp from 'sharp';
 
 const app = express();
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_KEY || '12';
 
 function requireApiKey(req, res, next) {
   const provided = req.query.apikey;
